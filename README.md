@@ -1,9 +1,12 @@
 # Highlander
-A real-time derivatives system cache.
-There are additionally a bunch of trading applications, but the sweet thing about this cache is that
-the underlying data acrchitecture is FpML 5.3 extended with the JPMorgan classes for securities.
-As well as valuing all Reporting and Confirmation trades. This is based on the enxtensive use of 
-the PricingStructure and PricingStructureValuation classes in FpML.
-A range of OTS and Exchange traded derivatives can be vlaued and risk managed real-time.
+The core of Highlander is a central derivatives real-time event management cache.
 
-The next goal will be to incorporate FpML 5.10 into the architecture.
+Additionally, there are a number of trading applications, which deliver pricing and risk management capabilities. 
+However, the sweet thing about this cache is that the underlying data acrchitecture is primarliy FpML(5.3, but 
+extended with the JPMorgan classes for securities).
+
+As well as valuing all Reporting and Confirmation trades, FpML PricingStructure and PricingStructureValuation classes are used extensively.
+
+A wide range of OTC and Exchange traded derivatives can be vlaued and risk managed real-time.
+
+The next goal will be to incorporate FpML 5.10 and 5.11 into the architecture.
