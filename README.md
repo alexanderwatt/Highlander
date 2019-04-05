@@ -1,5 +1,5 @@
 # Highlander
-The core of Highlander is a central derivatives real-time event management cache.
+The core of Highlander is a central  real-time event management cache for financial derivatives and securities. This includes commodity, interest rate, foreign exchange, equity, inflation and property.
 
 Additionally, there are a number of trading applications, which deliver pricing and risk management capabilities. 
 However, the sweet thing about this cache is that the underlying data acrchitecture is primarliy FpML(5.3, but 
